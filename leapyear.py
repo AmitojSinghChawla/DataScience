@@ -1,14 +1,15 @@
 
-def is_leap_year(year):
-  
-    if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
-        return True
-    else:
-        return False
 
-# Example usage:
-year_to_check = 2024
-if is_leap_year is True :
-    print(f"{year_to_check} is a leap year.")
+year = 2012
+
+
+if (year % 400 == 0) and (year % 100 == 0):
+    print("{0} is a leap year".format(year))
+
+
+elif (year % 4 ==0) and (year % 100 != 0):
+    print("{0} is a leap year".format(year))
+
+
 else:
-    print(f"{year_to_check} is not a leap year.")
+    print("{0} is not a leap year".format(year))
