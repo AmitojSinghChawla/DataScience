@@ -1,0 +1,20 @@
+There are three types of plot which can be made in seaborn 1.relplot 2.displot 3.catplot
+
+#functions--In Seaborn, a popular Python visualization library built on top of Matplotlib, there's a distinction between figure-level functions and axes-level functions. Let me explain both in easy terms:
+
+1. **Figure-Level Functions**:
+   - Figure-level functions in Seaborn operate at the level of the entire figure. This means they create and manage the entire plot, including potentially multiple subplots.
+   - These functions typically accept a high-level dataset and automatically handle the creation of the underlying Matplotlib figure and axes.
+   - They are convenient for quickly creating complex visualizations with minimal code.
+   - Examples of figure-level functions include `seaborn.relplot()`, `seaborn.catplot()`, and `seaborn.pairplot()`.
+   - These functions often allow you to create different types of plots (e.g., scatter plots, line plots, categorical plots) by specifying the `kind` parameter.
+
+2. **Axes-Level Functions**:
+   - Axes-level functions in Seaborn operate at the level of individual axes within a plot.
+   - They provide more granular control over the appearance and customization of specific components within the plot, such as the axes limits, labels, and annotations.
+   - These functions typically require you to explicitly create the Matplotlib figure and axes objects before plotting.
+   - Axes-level functions are ideal when you need fine-grained control over the plot elements or when you want to combine multiple plots into a single figure manually.
+   - Examples of axes-level functions include `seaborn.scatterplot()`, `seaborn.lineplot()`, and `seaborn.barplot()`.
+   - These functions often accept additional parameters to customize the appearance of the plot, such as `hue`, `size`, `style`, etc., allowing for more detailed visualizations.
+
+In summary, figure-level functions are convenient for quickly creating entire plots with minimal code, while axes-level functions offer more control and flexibility over the individual components of a plot. The choice between the two depends on your specific visualization needs and the level of customization required.

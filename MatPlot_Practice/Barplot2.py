@@ -11,11 +11,11 @@ pd.set_option('display.max_columns', 20)
 
 data = pd.read_csv("air_traffic.csv")
 data_df = pd.DataFrame(data)
+
 # rows =108
 # columns = 10
 # subset = data_df.head(rows).iloc[:, :columns]
 # # print(subset)
-
 
 # Calculate total international flights per year
 total_flights_per_year = data_df.groupby('Year')["Flights"].sum().tolist()
