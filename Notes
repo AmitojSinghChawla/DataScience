@@ -1,0 +1,112 @@
+Types of Data
+categorical and numerical
+
+categorical --
+nominal and ordinal
+
+nominal data is a classification of categorical variable that do not provide any quantitative value
+
+ordinal data is the type of data in which the values follow a natural order
+
+numerical---
+discrete data is the type of data that can only take certain values
+
+continuous data is the type
+
+
+statistics-->
+descriptive and inferential
+
+descriptive- this type of stats are used to describe the basic features of the data in a study the provide simple summaries about the sample and the measures
+
+1.describes the data
+2.used for analysis
+
+important measures in descriptive stats
+1.measure of central tendencies
+2.measure of variability(range,S.Dv,variance)
+
+inferential-takes data frn a sample and makes inferences and predictions about the larger population from which the sample was taken
+1.gets inferences about the data
+2
+
+
+
+TYPES OF STATISTICAL STUDIES
+
+SAMPLE-- a sample study is a study which is carried out on a sample which represents the total population.
+
+OBSERVATIONAL-it is a study where we simply collect data and analyze it we wont inject any changes we just observe the correlation
+
+EXPERIMENTAL-a study in which conditions are controlled and manipulated by the experimenter
+
+
+POPULATION AND SAMPLE---->
+
+SAMPLING TECHNIQUES
+1.Simple Random Sampling
+2.Systematic Sampling
+3.Stratified Random Sampling
+4.Cluster Sampling
+
+these are called probability sampling techniques
+
+Simple Random Sampling- in this the sample is randomly picked from a larger population .hence,all the individual datapoints has an equal probably to be selected sample data.
+
+Eg-a employee survey in a company
+
+Pros
+1.No sample bias
+2.Balanced Sample
+3.Simple Method of Sampling
+4.Requires less domain knowledge
+
+Cons
+1. Population Size should High
+2. Cannot represent the population well sometimes
+
+
+SYSTEMATIC SAMPLING--->
+the sample is picked from the population at regular intervals. this type of sampling is carried out if the population is homogeneous and the data points are uniformly distributed
+
+Example-- Selecting every 10th member from a population of 10,000
+
+
+STRATIFIED RANDOM SAMPLING---
+the population is subdivided into smaller groups called "strata". samples are obtained randomly from all these strata
+
+eg- selecting data of smartphones sold in all the states of india
+
+CLUSTER SAMPLING---> its carried out on population that has inherent groups. This population is subdivided into clusters and the random clusters are taken as sample
+
+Example- Smartphone sales are taken from only selected state which represent g
+
+
+
+
+PERCENTILE VS QUANTILES
+
+
+PERCENTILE- is a value on a scale of 100 that indicates the percent of a distribution that is equal to or below it.
+
+QUANTILE- is a measure that tells how many values in a dataset are above or below is a certain limit. it divides the members of the dataset into equally sized groups
+
+
+Correlation- is a measure which determines the extent to which two variables are related to each other in a data set but this doesnt mean that one event is the cause of the other event
+ --positive correlation means if one increases other value also increase and vice versa is negative correlation
+
+
+Causation- In stats causation means that one event causes another event to occur. Thus,there is a cause and effect relationship between the two variables in a dataset.
+
+
+
+HYPOTHESIS TESTING
+
+
+hypothesis is an assumption that is made based on the observations of an experiment
+
+2 types of it-
+Null hypothesis- is the commonly accepted fact (h<sub>0<sub>)
+Alternative Hypothesis(H<sub>a<sub>) is the opposite to null hypothesis and it challenges the null hypothesis
+
+hypothesis testing is a method carried out to test the assumptions made in the experiment
